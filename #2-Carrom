@@ -1,0 +1,33 @@
+<div id=main>
+<div class=' square square1'></div>
+<div class='square2 square'></div>
+<div class='square3 square' ></div>
+ <div class='square4 square'></div>
+</div>
+<style>
+  body{
+    background:#62374e;
+  }
+  #main{
+    margin:50px 42px;
+    display:grid;
+    grid-gap:100px 200px;
+  }
+  .square{
+    width:50px;
+    height:50px;
+    background:#fdc57b;  
+  }
+  .square1{
+    grid-area:square1;
+  }
+  
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
