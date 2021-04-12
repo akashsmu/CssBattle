@@ -1,0 +1,33 @@
+
+<div class='wave down'></div>
+<div class='wave up'></div>
+<div class ='wave down down2'></div>
+<style>
+  body{
+    background:#62306D;
+  }
+  .wave{
+    width:100px;
+    height:100px;
+    border-radius:0 50% 50% 0;
+    background:#F7EC7D;
+    position:absolute;
+  }
+  .down{
+    transform:rotate(90deg);
+    top:150px;
+    left:50px;
+  }
+  .up{
+    transform:rotate(-90deg);
+    top:50px;
+    left:150px;
+  }
+  .down2{
+    top:150px;
+    left:250px;
+  }
+  
+
+</style>
+
