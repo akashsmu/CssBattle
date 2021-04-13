@@ -1,5 +1,6 @@
-<div class='leaf front'></div>
+<div class='leaf back'></div>
 <div class='leaf middle'></div>
+<div class='leaf front'></div>
 <style>
   body{
     background:#0B2429;
@@ -8,22 +9,28 @@
   .leaf{
     width:150px;
     height:150px;
-    border-radius:0 65%;
     position:absolute;
-    transform:rotate(88deg);
+    border-radius:0 100px;
+    transform:rotate(90deg);
   }
   .front{
     background:#F3AC3C;
     top:67px;
     left:170px;
-    z-index:99;
+    z-index:30;
   }
   .middle{
     background:#998235;
-    top:60px;
+    top:67px;
     left:120px;
-    z-index:10;
+    z-index:20;
     
+  }
+  .back{
+    background:#1A4341;
+    top:67px;
+    left:70px;
+    z-index:10;
   }
   
 </style>
