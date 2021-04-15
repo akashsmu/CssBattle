@@ -1,0 +1,54 @@
+<div class='triangle left-front'></div>
+<div class='triangle left-back'></div>
+<div class='triangle right-front'></div>
+<div class='triangle right-back'></div>
+<style>
+  body{
+    background:#F2F2B6;
+    margin:0;
+    position:relative;
+  }
+  .triangle{
+    border-top:83px solid transparent;
+    border-bottom:73px solid transparent;
+    transform:rotate(90deg);
+    position:absolute;
+  }
+  .left-front{
+    border-left:129px solid #FF6D00;
+    left:75px;
+    top:72px;
+    z-index:3;
+  }
+  .left-back{
+    border-left:129px solid #FD4602;
+    z-index:2;
+    left:93px;
+    top:72px;
+  }
+  .right-front{
+    transform:rotate(-90deg);
+    border-left:129px solid #FD4602;
+    z-index:3;
+    top:73px;
+    left:183px;
+  }
+  
+  .right-back{
+    transform:rotate(-90deg);
+    border-left:129px solid #FF6D00;
+    z-index:2;
+    top:73px;
+    left:200px;
+  }
+  
+  
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
