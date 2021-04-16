@@ -1,0 +1,51 @@
+<div class='circle right'></div>
+<div class='bridge'></div>
+<div class='circle left'></div>
+<div class='circle top'></div>
+<div class='circle bottom'></div>
+<style>
+  body{
+    background:#09042A;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:95%;
+    position:relative;
+  }
+  .circle{
+    width:60px;
+    height:60px;
+    background:#F5BB9C;
+    border-radius:100%;
+    position:absolute;
+    z-index:2;
+    box-shadow:0 0 0 10px #09042A;
+  }
+  .right{
+    background:#09042A;
+    top:112px;
+    left:102px;
+    box-shadow:0 0 0 10px #E78481;
+    z-index:2;
+  }
+  .left{
+    background:#09042A;
+    top:112px;
+    left:223px;
+    box-shadow:0 0 0 10px #E78481;
+    z-index:2;
+  }
+  .top{
+    top:60px;
+  }
+  .bottom{
+    top:165px;
+  }
+  .bridge{
+    width:60px;
+    height:90px;
+    background:#E78481;
+    z-index:1
+  }
+  
+</style>
