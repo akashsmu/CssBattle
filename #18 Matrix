@@ -1,0 +1,40 @@
+<div class='container'>
+ <div class='sector orange'></div>
+ <div class='sector grey'></div>
+ <div class='sector orange'></div>
+ <div class='sector grey'></div>
+  
+  <div class='sector grey'></div>
+  <div class='sector orange'></div>
+  <div class='sector grey'></div>
+  <div class='sector orange'></div>
+  <div class='sector orange'></div>
+ <div class='sector grey'></div>
+ <div class='sector orange'></div>
+ <div class='sector grey'></div>
+</div>
+  <style>
+  body{
+    background:#5C434C;
+  }
+    .container{
+    display:grid;
+   	grid-template-columns:1fr 1fr 1fr 1fr ;
+  	grid-template-rows: auto;
+    row-gap:20px;
+    }
+  .sector{
+    width: 75px;
+    height:80px;
+    border-top-left-radius:150px;
+    justify-self:center;
+    align-self:center;
+  }
+  .orange{
+    background:#F09462;
+  }
+  .grey{
+    background:#F5D6B4;
+  }
+  
+</style>
