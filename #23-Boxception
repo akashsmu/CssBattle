@@ -1,0 +1,38 @@
+<div class='large-square'>
+  <div class='middle-square'>
+      <div class='inner'>
+  </div>
+</div>
+  
+<style>
+  body{
+    background:#F3AC3C;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:95%;
+  }
+  .large-square{
+    width:200px;
+    height:200px;
+    background:#1A4341;
+    position:relative;
+    z-index:1;
+  }
+  .middle-square{
+    width:100px;
+    height:100px;
+    background:#998235;
+    position:absolute;
+    top:100px;
+    z-index:2;
+  }
+  .inner{
+    width:50px;
+    height:50px;
+    background:#F3AC3C;
+    position:absolute;
+    top:50px;
+    left:50px;
+  }
+  </style>
