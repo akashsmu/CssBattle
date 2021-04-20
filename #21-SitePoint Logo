@@ -1,0 +1,62 @@
+<div class='blue'>
+  <div class='vertical'></div>
+</div>
+<div class='orange'>
+  <div class='vertical1'></div>
+  </div>
+<style>
+  body{
+    background:#222;
+    position:relative;
+  }
+  .blue{
+    width:100px;
+    height:30px;
+    background:#2D9CDB;
+    position:absolute;
+    top:169px;
+    left:172px;
+    transform:rotate(-45deg);
+    border-bottom-right-radius:12px;
+  }
+  .vertical{
+    width:53px; 
+    height:30px;
+    background:#2D9CDB;
+     position:absolute;
+    top: -40px;
+    left:58px;
+    transform:rotate(-90deg);
+    border-top-right-radius:5px;
+  }
+  .orange{
+    width:105px;
+    height:29px;
+    background:#F2994A;
+    position:absolute;
+    top:88px;
+    left:107px;
+    transform:rotate(-45deg);
+    border-top-left-radius:12px;
+  }
+  .vertical1{
+    width:59px; 
+    height:33px;
+    background:#F2994A;
+    position:absolute;
+    top: 30px;
+    left:-13px;
+    transform:rotate(-90deg);
+    border-bottom-left-radius:5px;
+  }
+  
+  
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
