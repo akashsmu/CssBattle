@@ -1,0 +1,46 @@
+<div class='leftTop'>
+<div class='circle left'></div>
+</div>
+<div class='rightBottom'>
+ <div class='circle right'>
+   
+
+<style>
+  body{
+    background:#62306D;
+  }
+  .leftTop{
+    width:95px;
+    height:100px;
+    background:#AA445F;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+    position:absolute;
+    top:49px;
+    left:86px;
+  }
+  .circle{
+    width:98px;
+    height:98px;
+    background:#F7EC7D;
+    border-radius:100%;
+    position:absolute;
+  }
+  .left{
+    top:51px;
+    left:-1px;
+  }
+  .rightBottom{
+    width:95px;
+    height:100px;
+    background:#E38F66;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    position:absolute;
+    top:150px;
+    left:225px;
+  }
+  .right{
+    top:-49px
+  }
+</style>
