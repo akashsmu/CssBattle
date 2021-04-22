@@ -1,0 +1,33 @@
+<div class='eyebrow left'></div>
+<div class='eyebrow right'></div>
+<div class='eyebrow smile'></div>
+
+<style>
+  body{
+    background:#6592CF;
+    position:relative;
+  }
+  .eyebrow{
+    width:80px;
+    height:40px;
+    border-top-left-radius:80px;
+    border-top-right-radius:80px;
+    border:20px solid #060F55;
+    border-bottom:0;
+    position:absolute;
+    top:32px;
+  }
+  .left{
+    left:35px;
+  }
+  .right{
+    right:34px;
+  }
+  .smile{
+    transform:rotate(180deg);
+    top:192px;
+    left:132px;
+  }
+  
+  
+</style>
