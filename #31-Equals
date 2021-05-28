@@ -1,0 +1,25 @@
+<div class='left half'></div>
+<div class='right half'><div>
+<style>
+  body{
+    background:#AA445F;
+  }
+  .half{
+    width:100px;
+    height:200px;
+    border-top-left-radius:100px;
+    border-bottom-left-radius:100px;
+    position:absolute;
+    top:50px;
+  }
+  .left{
+    background:#F7EC7D;
+    left:75px;
+  }
+  .right{
+    background:#E38F66;
+    right:75px;
+    transform:rotate(180deg);
+  }
+  
+</style>
