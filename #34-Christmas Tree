@@ -1,0 +1,42 @@
+<div class='triangle first'></div>
+<div class='triangle second'><div>
+<div class='triangle third'><div>
+<style>
+  body{
+    background:#007065;
+  }
+  .triangle{
+    width:0;
+    height:0;
+    border-left:122px solid transparent;
+    border-right:122px solid transparent;
+    position:absolute;
+    left:80px;
+  }
+  .first{
+    border-bottom:100px solid #00A79D;
+    top:150px;
+    z-index:-1;
+  }
+  .second{
+    border-bottom:100px solid #F5C181;
+    top:100px;
+    z-index:50;
+  }
+  .third{
+    border-bottom:100px solid #FFEECF;
+    left:-120px;
+    top:-51px;
+  }
+  
+  
+  
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
