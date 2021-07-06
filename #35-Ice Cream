@@ -1,0 +1,36 @@
+<div class='candy'></div>
+<div class='stick'>
+<div class='second'></div>
+<style>
+  body{
+    background:#293462;
+  }
+  .candy{
+    width:100px;
+    height:150px;
+    background:#FFF1C1;
+    border-top-left-radius:80px;
+    border-top-right-radius:80px;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
+    position:absolute;
+    top:50px;
+    left:150px;
+  }
+  .stick{
+    width:29px;
+    height:10px;
+    background:#A64942;
+    position:absolute;
+    top:200px;
+    left:185px;
+  }
+  .second{
+    width:29px;
+    height:40px;
+    background:#FE5F55;
+    position:absolute;
+    top:10px;
+    border-radius:0 0 10px 10px;
+  }
+</style>
