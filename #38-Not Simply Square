@@ -1,0 +1,42 @@
+<div id='big-square'></div>
+<div class='red-bottom'></div>
+<div class='red-top'></div>
+<div class='inner'></div>
+
+<style>
+  body{
+    background:#293462;
+    margin:0;
+  }
+  #big-square{
+    width:200px;
+    height:200px;
+    background:#FFF1C1;
+    position:relative;
+    z-index:100;
+  }
+  .red-bottom{
+    width:150px;
+    height:100px;
+    background:#FE5F55;
+    box-shadow: 0 0 0 50px #A64942;
+  }
+  .red-top{
+    width:152px;
+    height:100px;
+    background:#FE5F55;
+    position:absolute;
+    top:26px;
+    left:174px;
+    transform:rotate(90deg);
+  }
+  .inner{
+    width:150px;
+    height:50px;
+    background:#A64942;
+    transform:rotate(90dg);
+    position:absolute;
+    top:150px;
+    left:150px;
+  }
+</style>
